@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updated": "2026-10-25",
   "source": "Tài liệu HTML nội bộ trong kho. Nguồn trích dẫn của từng tài liệu nằm trong chính tài liệu đó.",
   "status": "unverified",
@@ -12,7 +12,7 @@
   "records": [
     { "id": "acg-2026-xo-gan", "category": "guideline", "title": "ACG 2026 – Chăm sóc dự phòng cho người bệnh xơ gan", "short": "ACG 2026 – Xơ gan dự phòng", "file": "ACG-2026-xo-gan-du-phong-tom-tat.html", "tags": ["xơ gan", "gan", "tiêu hóa", "ACG"] },
     { "id": "gina-2026", "category": "guideline", "title": "GINA 2026 – Điều trị hen người lớn, thanh thiếu niên và trẻ 6–11 tuổi", "short": "GINA 2026 – Hen", "file": "GINA-2026-Ch3-4-tom-tat.html", "tags": ["hen", "hô hấp", "nhi", "ICS"] },
-    { "id": "dtd-2023-2026", "category": "guideline", "title": "Bảo vệ cơ quan thay dần HbA1c trong guideline đái tháo đường 2023–2026", "short": "Đái tháo đường 2023–2026", "file": "Guideline đái tháo đường 2023 2026.html", "tags": ["đái tháo đường", "HbA1c", "SGLT2", "GLP-1"] },
+    { "id": "dtd-2023-2026", "category": "guideline", "title": "Bảo vệ cơ quan thay dần HbA1c trong guideline đái tháo đường 2023–2026", "short": "Đái tháo đường 2023–2026", "file": "Guideline đái tháo đường 2023 2026.html", "tags": ["đái tháo đường", "HbA1c", "SGLT2", "GLP-1"] },
     { "id": "ada-easd-2026", "category": "guideline", "title": "Đồng thuận ADA/EASD 2026 – Quản lý đái tháo đường típ 2", "short": "ADA/EASD 2026 – ĐTĐ típ 2", "file": "ada-easd-2026-dai-thao-duong-tip-2.html", "tags": ["đái tháo đường", "ADA", "EASD"] },
     { "id": "aha-ckm-2026", "category": "guideline", "title": "2026 AHA/ACC/ADA/ASN – Hội chứng tim mạch-thận-chuyển hóa (CKM)", "short": "AHA 2026 – Hội chứng CKM", "file": "aha-acc-ada-ckm-syndrome-2026.html", "tags": ["tim mạch", "thận", "chuyển hóa", "CKM"] },
     { "id": "esc-2026-suy-tim", "category": "guideline", "title": "Cập nhật ESC 2026 – Suy tim", "short": "ESC 2026 – Suy tim", "file": "cap-nhat-esc-2026-suy-tim.html", "tags": ["suy tim", "tim mạch", "ESC"] },
