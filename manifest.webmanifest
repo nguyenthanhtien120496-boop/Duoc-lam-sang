@@ -1,0 +1,14 @@
+{
+  "name": "Cổng Dược Lâm Sàng – BV Sản Nhi Quảng Ngãi",
+  "short_name": "Dược Lâm Sàng",
+  "description": "Tra cứu tài liệu dược lâm sàng và công cụ tính – Khoa Dược, Bệnh viện Sản Nhi tỉnh Quảng Ngãi",
+  "lang": "vi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#c4ccda",
+  "theme_color": "#0f1d3a",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-10-25",
+  "source": "Tài liệu HTML nội bộ trong kho. Nguồn trích dẫn của từng tài liệu nằm trong chính tài liệu đó.",
+  "status": "unverified",
+  "categories": [
+    { "id": "guideline", "name": "Tóm tắt guideline", "icon": "book" },
+    { "id": "drug-info", "name": "Thông tin thuốc", "icon": "pill" },
+    { "id": "compare", "name": "So sánh dược lý", "icon": "compare" },
+    { "id": "ebm", "name": "Thẩm định EBM", "icon": "check" }
+  ],
+  "records": [
+    { "id": "acg-2026-xo-gan", "category": "guideline", "title": "ACG 2026 – Chăm sóc dự phòng cho người bệnh xơ gan", "short": "ACG 2026 – Xơ gan dự phòng", "file": "ACG-2026-xo-gan-du-phong-tom-tat.html", "tags": ["xơ gan", "gan", "tiêu hóa", "ACG"] },
+    { "id": "gina-2026", "category": "guideline", "title": "GINA 2026 – Điều trị hen người lớn, thanh thiếu niên và trẻ 6–11 tuổi", "short": "GINA 2026 – Hen", "file": "GINA-2026-Ch3-4-tom-tat.html", "tags": ["hen", "hô hấp", "nhi", "ICS"] },
+    { "id": "dtd-2023-2026", "category": "guideline", "title": "Bảo vệ cơ quan thay dần HbA1c trong guideline đái tháo đường 2023–2026", "short": "Đái tháo đường 2023–2026", "file": "Guideline đái tháo đường 2023 2026.html", "tags": ["đái tháo đường", "HbA1c", "SGLT2", "GLP-1"] },
+    { "id": "ada-easd-2026", "category": "guideline", "title": "Đồng thuận ADA/EASD 2026 – Quản lý đái tháo đường típ 2", "short": "ADA/EASD 2026 – ĐTĐ típ 2", "file": "ada-easd-2026-dai-thao-duong-tip-2.html", "tags": ["đái tháo đường", "ADA", "EASD"] },
+    { "id": "aha-ckm-2026", "category": "guideline", "title": "2026 AHA/ACC/ADA/ASN – Hội chứng tim mạch-thận-chuyển hóa (CKM)", "short": "AHA 2026 – Hội chứng CKM", "file": "aha-acc-ada-ckm-syndrome-2026.html", "tags": ["tim mạch", "thận", "chuyển hóa", "CKM"] },
+    { "id": "esc-2026-suy-tim", "category": "guideline", "title": "Cập nhật ESC 2026 – Suy tim", "short": "ESC 2026 – Suy tim", "file": "cap-nhat-esc-2026-suy-tim.html", "tags": ["suy tim", "tim mạch", "ESC"] },
+    { "id": "acr-2026-oa", "category": "guideline", "title": "2026 ACR – Thoái hóa khớp (Osteoarthritis)", "short": "ACR 2026 – Thoái hóa khớp", "file": "acr-2026-osteoarthritis.html", "tags": ["thoái hóa khớp", "cơ xương khớp", "ACR"] },
+    { "id": "ash-2026-thieu-sat", "category": "guideline", "title": "2026 ASH – Thiếu sắt (Iron Deficiency)", "short": "ASH 2026 – Thiếu sắt", "file": "ash-2026-iron-deficiency.html", "tags": ["thiếu máu", "sắt", "huyết học", "ASH"] },
+    { "id": "idsa-2026-gram-am", "category": "guideline", "title": "Hướng dẫn IDSA 2026 – Phác đồ kháng sinh vi khuẩn Gram âm kháng thuốc", "short": "IDSA 2026 – Gram âm kháng thuốc", "file": "idsa-2026-gram-am-khang-thuoc.html", "tags": ["kháng sinh", "nhiễm khuẩn", "Gram âm", "IDSA"] },
+    { "id": "ssti-s-aureus", "category": "guideline", "title": "Chẩn đoán và điều trị nhiễm trùng da, mô mềm do S. aureus", "short": "Nhiễm trùng da – S. aureus", "file": "nhiem-trung-da-mo-mem-staphylococcus-aureus.html", "tags": ["kháng sinh", "da", "MRSA", "nhiễm khuẩn"] },
+    { "id": "bexsero", "category": "drug-info", "title": "Bexsero – Tài liệu thông tin thuốc", "short": "Bexsero", "file": "Bexsero_Tai_lieu_thong_tin_thuoc.html", "tags": ["vắc xin", "não mô cầu", "nhi"] },
+    { "id": "lipitor", "category": "drug-info", "title": "Lipitor (atorvastatin) – Tài liệu thông tin thuốc", "short": "Lipitor", "file": "Lipitor_Tai_lieu_thong_tin_thuoc.html", "tags": ["statin", "atorvastatin", "lipid"] },
+    { "id": "meronem", "category": "drug-info", "title": "Meronem IV (meropenem) – Tài liệu thông tin thuốc", "short": "Meronem IV", "file": "Meronem_IV_Tai_lieu_thong_tin_thuoc.html", "tags": ["carbapenem", "meropenem", "kháng sinh"] },
+    { "id": "ss-carbapenem", "category": "compare", "title": "So sánh carbapenem – Dược lý lâm sàng", "short": "Carbapenem", "file": "so-sanh-carbapenem-duoc-ly-lam-sang.html", "tags": ["kháng sinh", "meropenem", "imipenem", "ertapenem"] },
+    { "id": "ss-fluoroquinolon", "category": "compare", "title": "So sánh ciprofloxacin – levofloxacin – moxifloxacin", "short": "Fluoroquinolon", "file": "so-sanh-fluoroquinolon-duoc-ly-lam-sang.html", "tags": ["kháng sinh", "quinolon"] },
+    { "id": "ss-macrolid", "category": "compare", "title": "So sánh macrolid – Dược lý lâm sàng", "short": "Macrolid", "file": "so-sanh-macrolid-duoc-ly-lam-sang.html", "tags": ["kháng sinh", "azithromycin", "clarithromycin"] },
+    { "id": "ss-ppi", "category": "compare", "title": "So sánh 5 thuốc ức chế bơm proton (PPI)", "short": "PPI", "file": "so-sanh-ppi-duoc-ly-lam-sang.html", "tags": ["tiêu hóa", "omeprazol", "esomeprazol", "pantoprazol"] },
+    { "id": "ss-statin", "category": "compare", "title": "So sánh 7 statin – tra cứu, quy đổi liều, lựa chọn theo tình huống", "short": "Statin", "file": "statin-7-so-sanh-duoc-ly-lam-sang.html", "tags": ["lipid", "atorvastatin", "rosuvastatin"] },
+    { "id": "azithro-mlt-jama-2026", "category": "ebm", "title": "Azithromycin dự phòng trong mổ lấy thai ngoài kế hoạch (JAMA 2026)", "short": "Azithromycin – mổ lấy thai", "file": "azithromycin-du-phong-mo-lay-thai.html", "tags": ["sản khoa", "mổ lấy thai", "kháng sinh dự phòng"] },
+    { "id": "bjog-kuitunen-2024", "category": "ebm", "title": "Kuitunen BJOG 2024 – Thẩm định EBM", "short": "Kuitunen BJOG 2024", "file": "bjog-azithromycin-sr-journal.html", "tags": ["sản khoa", "azithromycin", "tổng quan hệ thống"] }
+  ]
+}

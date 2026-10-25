@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ca kiểm thử công thức</title>
+<style>
+  body { font: 14px/1.5 ui-monospace, Menlo, monospace; margin: 16px; background: #f2f5fa; color: #0a1020; }
+  .fail { color: #8b394d; font-weight: 700; }
+  .sum { font-size: 16px; font-weight: 700; margin-top: 12px; }
+</style>
+</head>
+<body>
+<h1>Ca kiểm thử công thức</h1>
+<pre id="out">Đang chạy…</pre>
+<script src="../js/lib/formulas.js"></script>
+<script src="formulas.test.js"></script>
+<script>
+  (function () {
+    var r = window.CDSSTestResult, out = document.getElementById('out');
+    out.innerHTML = '';
+    r.log.forEach(function (l) {
+      var s = document.createElement('div');
+      s.textContent = l;
+      if (l.indexOf('FAIL') === 0) s.className = 'fail';
+      if (l.indexOf('Tổng') === 0) s.className = 'sum';
+      out.appendChild(s);
+    });
+    document.title = (r.fail ? 'LỖI ' : 'ĐẠT ') + r.pass + '/' + (r.pass + r.fail);
+  })();
+</script>
+</body>
+</html>

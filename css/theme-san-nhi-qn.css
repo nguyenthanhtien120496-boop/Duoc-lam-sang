@@ -1,0 +1,6 @@
+/* Theme đơn vị: Bệnh viện Sản Nhi tỉnh Quảng Ngãi. Chỉ đổi màu nhấn; tên và logo đặt trong index.html */
+:root[data-unit="san-nhi-qn"] {
+  --accent: #b23a68;
+  --accent-ink: #ffffff;
+  --accent-soft: #f6dfe8;
+}

@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-10-25",
+  "source": "1. Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron. 1976;16(1):31-41. 2. Inker LA, Eneanya ND, Coresh J, Tighiouart H, Wang D, Sang Y, et al. New creatinine- and cystatin C-based equations to estimate GFR without race. N Engl J Med. 2021;385(19):1737-49. 3. Schwartz GJ, Muñoz A, Schneider MF, Mak RH, Kaskel F, Warady BA, et al. New equations to estimate GFR in children with CKD. J Am Soc Nephrol. 2009;20(3):629-37. 4. Mosteller RD. Simplified calculation of body-surface area. N Engl J Med. 1987;317(17):1098. 5. World Health Organization. Obesity: preventing and managing the global epidemic. Report of a WHO consultation. WHO Technical Report Series 894. Geneva: WHO; 2000. 6. Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2012 clinical practice guideline for the evaluation and management of chronic kidney disease. Kidney Int Suppl. 2013;3(1):1-150.",
+  "status": "unverified",
+  "records": [
+    {
+      "id": "crcl",
+      "name": "Độ thanh thải creatinine – Cockcroft-Gault",
+      "expression": "CrCl (mL/phút) = [(140 − tuổi) × cân nặng (kg)] / [72 × creatinine huyết thanh (mg/dL)] × 0,85 nếu là nữ",
+      "population": "Người lớn (≥ 18 tuổi)",
+      "refs": [1, 6]
+    },
+    {
+      "id": "egfr-ckdepi-2021",
+      "name": "eGFR – CKD-EPI 2021 (creatinine, không dùng hệ số chủng tộc)",
+      "expression": "eGFR = 142 × min(Scr/κ, 1)^α × max(Scr/κ, 1)^−1,200 × 0,9938^tuổi × 1,012 [nếu nữ]; κ = 0,7 (nữ) / 0,9 (nam); α = −0,241 (nữ) / −0,302 (nam); Scr tính bằng mg/dL",
+      "population": "Người lớn (≥ 18 tuổi)",
+      "refs": [2, 6]
+    },
+    {
+      "id": "egfr-schwartz-2009",
+      "name": "eGFR trẻ em – Schwartz bedside 2009",
+      "expression": "eGFR (mL/phút/1,73 m²) = 0,413 × chiều cao (cm) / creatinine huyết thanh (mg/dL)",
+      "population": "Trẻ em (nghiên cứu gốc CKiD: 1–16 tuổi)",
+      "refs": [3, 6]
+    },
+    {
+      "id": "bsa-mosteller",
+      "name": "Diện tích da – Mosteller",
+      "expression": "BSA (m²) = √[chiều cao (cm) × cân nặng (kg) / 3600]",
+      "population": "Người lớn và trẻ em",
+      "refs": [4]
+    },
+    {
+      "id": "bmi-who",
+      "name": "Chỉ số khối cơ thể (BMI) – phân loại WHO người lớn",
+      "expression": "BMI (kg/m²) = cân nặng (kg) / [chiều cao (m)]²; < 18,5 thiếu cân; 18,5–24,9 bình thường; 25,0–29,9 tiền béo phì; 30,0–34,9 béo phì độ I; 35,0–39,9 béo phì độ II; ≥ 40,0 béo phì độ III",
+      "population": "Người lớn (phân loại không áp dụng cho trẻ em)",
+      "refs": [5]
+    },
+    {
+      "id": "kdigo-g-stage",
+      "name": "Phân độ G theo eGFR – KDIGO 2012",
+      "expression": "G1 ≥ 90; G2 60–89; G3a 45–59; G3b 30–44; G4 15–29; G5 < 15 (mL/phút/1,73 m²)",
+      "population": "Áp dụng cho kết quả eGFR",
+      "refs": [6]
+    },
+    {
+      "id": "creatinine-unit",
+      "name": "Quy đổi đơn vị creatinine",
+      "expression": "1 mg/dL = 88,4 µmol/L",
+      "population": "—",
+      "refs": [6]
+    }
+  ],
+  "references": [
+    { "n": 1, "text": "Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron. 1976;16(1):31-41." },
+    { "n": 2, "text": "Inker LA, Eneanya ND, Coresh J, Tighiouart H, Wang D, Sang Y, et al. New creatinine- and cystatin C-based equations to estimate GFR without race. N Engl J Med. 2021;385(19):1737-49." },
+    { "n": 3, "text": "Schwartz GJ, Muñoz A, Schneider MF, Mak RH, Kaskel F, Warady BA, et al. New equations to estimate GFR in children with CKD. J Am Soc Nephrol. 2009;20(3):629-37." },
+    { "n": 4, "text": "Mosteller RD. Simplified calculation of body-surface area. N Engl J Med. 1987;317(17):1098." },
+    { "n": 5, "text": "World Health Organization. Obesity: preventing and managing the global epidemic. Report of a WHO consultation. WHO Technical Report Series 894. Geneva: WHO; 2000." },
+    { "n": 6, "text": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group. KDIGO 2012 clinical practice guideline for the evaluation and management of chronic kidney disease. Kidney Int Suppl. 2013;3(1):1-150." }
+  ]
+}

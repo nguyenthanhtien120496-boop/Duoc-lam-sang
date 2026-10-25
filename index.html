@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi" data-unit="san-nhi-qn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cổng Dược Lâm Sàng</title>
+<meta name="description" content="Cổng tra cứu tài liệu dược lâm sàng và công cụ tính – Khoa Dược, Bệnh viện Sản Nhi tỉnh Quảng Ngãi">
+<meta name="theme-color" content="#0f1d3a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/theme-san-nhi-qn.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></symbol>
+  <symbol id="i-kidney" viewBox="0 0 24 24"><path d="M9.5 4C6 4 4 7 4 11s2 9 6 9c2 0 2.5-2 2.5-4s-1.5-3-1.5-5 1.5-3 1.5-4.5S11.5 4 9.5 4z"/><path d="M14.5 4c3.5 0 5.5 3 5.5 7s-2 9-6 9"/></symbol>
+  <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M8 9a5 5 0 0 1 8 0"/><path d="M12 9l1.5-2"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5"/><path d="M8 7h7"/></symbol>
+  <symbol id="i-pill" viewBox="0 0 24 24"><rect x="2.5" y="8.5" width="19" height="7" rx="3.5" transform="rotate(-45 12 12)"/><path d="m8.5 8.5 7 7"/></symbol>
+  <symbol id="i-compare" viewBox="0 0 24 24"><path d="M12 3v18"/><rect x="3" y="6" width="6" height="12" rx="1.5"/><rect x="15" y="6" width="6" height="12" rx="1.5"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M9 11l3 3 8-8"/><path d="M20 12v6a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h9"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><path d="M12 8h.01"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 4 2.5 20h19z"/><path d="M12 10v4"/><path d="M12 17h.01"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-collapse" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/><path d="m15 10-2 2 2 2"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-reload" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></symbol>
+</svg>
+
+<a class="skip-link" href="#view">Bỏ qua thanh điều hướng</a>
+
+<div class="app" id="app">
+  <aside class="sidebar" id="sidebar" aria-label="Thanh điều hướng">
+    <div class="sb-head">
+      <div class="sb-logo" aria-hidden="true">SN</div>
+      <div class="sb-brand">
+        <b>Cổng Dược Lâm Sàng</b>
+        <span title="Khoa Dược · Bệnh viện Sản Nhi tỉnh Quảng Ngãi">BV Sản Nhi Quảng Ngãi</span>
+      </div>
+      <button class="sb-toggle collapse" id="sb-collapse" type="button" aria-label="Thu gọn thanh bên" aria-expanded="true" aria-controls="sidebar">
+        <svg class="i"><use href="#i-collapse"/></svg>
+      </button>
+      <button class="sb-toggle close" id="sb-close" type="button" aria-label="Đóng thanh bên">
+        <svg class="i"><use href="#i-close"/></svg>
+      </button>
+    </div>
+    <div class="sb-search" role="search">
+      <svg class="i"><use href="#i-search"/></svg>
+      <label class="sr-only" for="sb-q">Tìm tài liệu hoặc công cụ</label>
+      <input id="sb-q" type="search" placeholder="Tìm (không cần dấu)…" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
+    </div>
+    <nav class="sb-nav" id="sb-nav" aria-label="Mục lục"></nav>
+    <div class="sb-foot" id="sb-foot">Đang tải dữ liệu…</div>
+  </aside>
+  <div class="overlay" id="overlay" aria-hidden="true"></div>
+
+  <div class="main">
+    <header class="topbar">
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Mở thanh điều hướng" aria-controls="sidebar" aria-expanded="false">
+        <svg class="i"><use href="#i-menu"/></svg>
+      </button>
+      <span class="crumb" id="crumb"></span>
+      <h1 id="page-title">Trang chủ</h1>
+    </header>
+    <main class="view" id="view" tabindex="-1"></main>
+  </div>
+</div>
+
+<noscript><p style="padding:16px">Ứng dụng cần JavaScript để hoạt động.</p></noscript>
+
+<script src="js/lib/formulas.js"></script>
+<script src="js/core.js"></script>
+<script src="js/lib/calc-ui.js"></script>
+<script src="js/modules/home.js"></script>
+<script src="js/modules/doc-viewer.js"></script>
+<script src="js/modules/calc-crcl.js"></script>
+<script src="js/modules/calc-egfr.js"></script>
+<script src="js/modules/calc-body.js"></script>
+<script src="js/modules/about.js"></script>
+<script>CDSSApp.start();</script>
+</body>
+</html>
