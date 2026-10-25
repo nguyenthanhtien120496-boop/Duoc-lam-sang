@@ -1,10 +1,10 @@
 # Cổng Dược Lâm Sàng – Khoa Dược, BV Sản Nhi Quảng Ngãi
 
-Web app tĩnh (PWA) gom 20 tài liệu dược lâm sàng và 3 công cụ tính vào một giao diện có thanh điều hướng bên trái.
+Web app tĩnh (PWA) gom 23 tài liệu dược lâm sàng và 3 công cụ tính vào một giao diện có thanh điều hướng bên trái.
 
 ## Tính năng
 - Thanh bên trái: nhóm tài liệu đóng/mở được, tìm kiếm không phân biệt dấu (phím tắt `/`), thu gọn thành thanh biểu tượng trên máy tính, ngăn kéo trượt trên điện thoại.
-- 20 tài liệu trong 4 nhóm: tóm tắt guideline, thông tin thuốc, so sánh dược lý, thẩm định EBM. Tài liệu gốc giữ nguyên, hiển thị trong khung.
+- 23 tài liệu trong 4 nhóm: tóm tắt guideline, thông tin thuốc, so sánh dược lý, thẩm định EBM. Tài liệu gốc giữ nguyên, hiển thị trong khung.
 - Công cụ tính: CrCl Cockcroft-Gault; eGFR CKD-EPI 2021 (người lớn) và Schwartz bedside (trẻ em) kèm phân độ KDIGO; BMI (WHO) và BSA Mosteller.
 - Dùng ngoại tuyến sau lần mở đầu (service worker), khi chạy qua http(s).
 - Không thu thập, không gửi, không lưu dữ liệu người bệnh.
@@ -29,11 +29,11 @@ js/modules/*.js             mỗi trang một module
 data/documents.json         danh mục tài liệu
 data/formulas.json          biểu thức và nguồn Vancouver
 tests/                      ca kiểm thử công thức (mở tests/index.html hoặc node tests/formulas.test.js)
-*.html (thư mục gốc)        20 tài liệu gốc
+*.html (thư mục gốc)        23 tài liệu gốc
 ```
 
 ## Thêm tài liệu mới
-1. Chép tệp HTML vào thư mục gốc.
+1. Chép tệp HTML vào thư mục gốc, **đặt tên không dấu, không khoảng trắng** (vd: `kdigo-2026-aki-akd-tom-tat.html`). Tên có dấu tiếng Việt có thể bị GitHub lưu theo dạng mã hóa khác và gây lỗi 404 trên GitHub Pages.
 2. Thêm một bản ghi vào `data/documents.json` (id duy nhất, `category`, `title`, `short`, `file`, `tags`), tăng `version` và `updated`.
 3. Tăng `CACHE_VERSION` trong `sw.js`.
 

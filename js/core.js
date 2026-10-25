@@ -159,6 +159,12 @@
     $('crumb').textContent = info.crumb || mod.crumb || '';
     document.title = title ? title + ' · Cổng Dược Lâm Sàng' : 'Cổng Dược Lâm Sàng';
 
+    markCurrent();
+    if (isMobile()) setDrawer(false);
+  }
+
+  function markCurrent() {
+    var r = parseHash();
     Array.prototype.forEach.call(document.querySelectorAll('.sb-link'), function (a) {
       if (a.getAttribute('data-route') === r.route) a.setAttribute('aria-current', 'page');
       else a.removeAttribute('aria-current');
@@ -169,7 +175,6 @@
       if (g && g.classList.contains('is-closed')) { g.classList.remove('is-closed'); }
       if (cur.scrollIntoView) cur.scrollIntoView({ block: 'nearest' });
     }
-    if (isMobile()) setDrawer(false);
   }
 
   // ---------- Khởi động ----------
@@ -205,6 +210,21 @@
     if (!('serviceWorker' in navigator) || !/^https?:$/.test(location.protocol)) return;
     window.addEventListener('load', function () {
       navigator.serviceWorker.register('sw.js').catch(function () { /* chạy được khi không có SW */ });
+    });
+    // Service worker mới vừa nhận quyền: nạp lại danh mục để tài liệu mới hiện ngay, không cần tải lại trang.
+    var hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', function () {
+      if (!hadController) { hadController = true; return; }
+      var oldVersion = data.docs && data.docs.version;
+      data.error = null;
+      loadData().then(function () {
+        if (!data.docs || data.docs.version === oldVersion) return;
+        var q = $('sb-q').value;
+        buildNav();
+        if (q) filterNav(q);
+        // Chỉ vẽ lại trang chủ; trang công cụ tính giữ nguyên để không mất dữ liệu đang nhập.
+        if (parseHash().key === '') route(); else markCurrent();
+      });
     });
   }
 

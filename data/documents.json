@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.1.0",
   "updated": "2026-10-25",
   "source": "Tài liệu HTML nội bộ trong kho. Nguồn trích dẫn của từng tài liệu nằm trong chính tài liệu đó.",
   "status": "unverified",
@@ -20,6 +20,9 @@
     { "id": "ash-2026-thieu-sat", "category": "guideline", "title": "2026 ASH – Thiếu sắt (Iron Deficiency)", "short": "ASH 2026 – Thiếu sắt", "file": "ash-2026-iron-deficiency.html", "tags": ["thiếu máu", "sắt", "huyết học", "ASH"] },
     { "id": "idsa-2026-gram-am", "category": "guideline", "title": "Hướng dẫn IDSA 2026 – Phác đồ kháng sinh vi khuẩn Gram âm kháng thuốc", "short": "IDSA 2026 – Gram âm kháng thuốc", "file": "idsa-2026-gram-am-khang-thuoc.html", "tags": ["kháng sinh", "nhiễm khuẩn", "Gram âm", "IDSA"] },
     { "id": "ssti-s-aureus", "category": "guideline", "title": "Chẩn đoán và điều trị nhiễm trùng da, mô mềm do S. aureus", "short": "Nhiễm trùng da – S. aureus", "file": "nhiem-trung-da-mo-mem-staphylococcus-aureus.html", "tags": ["kháng sinh", "da", "MRSA", "nhiễm khuẩn"] },
+    { "id": "eau-2026-uti", "category": "guideline", "title": "EAU 2026 – Nhiễm khuẩn niệu khoa (UTI, mục 3.3–3.9)", "short": "EAU 2026 – Nhiễm khuẩn tiết niệu", "file": "eau-2026-uti-tom-tat.html", "tags": ["nhiễm khuẩn tiết niệu", "UTI", "kháng sinh", "tiết niệu", "EAU"] },
+    { "id": "gina-2026-tre-6-11", "category": "guideline", "title": "GINA 2026 – Chiến lược quản lý và phòng ngừa hen (phần trẻ 6–11 tuổi)", "short": "GINA 2026 – Hen trẻ 6–11 tuổi", "file": "gina-2026-tre-6-11-tuoi-tom-tat.html", "tags": ["hen", "hô hấp", "nhi", "trẻ em", "ICS", "GINA"] },
+    { "id": "kdigo-2026-aki-akd", "category": "guideline", "title": "KDIGO AKI/AKD (dự thảo 03/2026) – Chương 3–4: phòng ngừa, điều trị và AKI do thuốc", "short": "KDIGO 2026 – AKI/AKD (dự thảo)", "file": "kdigo-2026-aki-akd-tom-tat.html", "tags": ["thận", "tổn thương thận cấp", "AKI", "AKD", "độc thận", "KDIGO"] },
     { "id": "bexsero", "category": "drug-info", "title": "Bexsero – Tài liệu thông tin thuốc", "short": "Bexsero", "file": "Bexsero_Tai_lieu_thong_tin_thuoc.html", "tags": ["vắc xin", "não mô cầu", "nhi"] },
     { "id": "lipitor", "category": "drug-info", "title": "Lipitor (atorvastatin) – Tài liệu thông tin thuốc", "short": "Lipitor", "file": "Lipitor_Tai_lieu_thong_tin_thuoc.html", "tags": ["statin", "atorvastatin", "lipid"] },
     { "id": "meronem", "category": "drug-info", "title": "Meronem IV (meropenem) – Tài liệu thông tin thuốc", "short": "Meronem IV", "file": "Meronem_IV_Tai_lieu_thong_tin_thuoc.html", "tags": ["carbapenem", "meropenem", "kháng sinh"] },

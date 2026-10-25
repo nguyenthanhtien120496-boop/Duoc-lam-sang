@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GINA 2026 – Chiến lược quản lý và phòng ngừa hen (phần trẻ 6–11 tuổi)</title>
+<meta name="description" content="Tóm tắt khuyến cáo GINA 2026 cho trẻ em 6–11 tuổi: chẩn đoán, đánh giá, điều trị (Track AIR/MART), đợt cấp. Giữ nguyên mức chứng cứ, diễn giải tiếng Việt, số trang tham khảo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg1:#a9b5c9;--bg2:#c4ccda;--card:#eef1f6;--card2:#dfe5ee;--line:#aab6c9;--tx:#0a1020;--mut:#2f3d54;--dim:#4a5a73;
+--surf:#fff;--surf2:#f4f6fb;--tnt:#e0e7ff;--tnt2:#eef2ff;--line2:#d7deea;--band:#c7d2fe;--bandt:#1e1b4b;
+--g:#15803d;--gb:#dcfce7;--gt:#14532d;--w:#a16207;--wb:#fef3c7;--wt:#713f12;--b:#b91c1c;--bb:#fee2e2;--bt:#7f1d1d;--n:#1d4ed8;--nb:#dbeafe;--nt:#1e3a8a;
+--ind:#3730a3;--indt:#3730a3;--navy:#17407e;
+--mild:#15803d;--mild-bg:#dcfce7;--mod:#a16207;--mod-bg:#fef3c7;--sev:#b91c1c;--sev-bg:#fee2e2;--life:#5b1030;--life-bg:#f6dce6;}
+:root[data-theme="warm"]{--bg1:#e6d8bb;--bg2:#f3ead6;--card:#fbf5e8;--card2:#f0e6d0;--line:#d4c4a1;--tx:#2a2116;--mut:#5a4a33;--dim:#6b5a40;
+--surf:#fffdf7;--surf2:#f8f1e1;--tnt:#f1e3c4;--tnt2:#f6ecd5;--line2:#e6d9bb;--band:#e8d6a8;--bandt:#4a3410;
+--ind:#8a4b0f;--indt:#7a3f0a;--navy:#7a4a12;--n:#9a3412;}
+:root[data-theme="dark"]{--bg1:#0b1220;--bg2:#111a2e;--card:#16213a;--card2:#1e2b4a;--line:#33466b;--tx:#e8edf8;--mut:#b4c0d8;--dim:#93a3c4;
+--surf:#1b2a4a;--surf2:#203154;--tnt:#2a3a66;--tnt2:#243457;--line2:#2f4064;--band:#2f3f78;--bandt:#e0e7ff;
+--g:#4ade80;--gb:#12361f;--gt:#bbf7d0;--w:#fbbf24;--wb:#3a2d0b;--wt:#fde68a;--b:#f87171;--bb:#3d1620;--bt:#fecaca;--nb:#14284f;--nt:#bfdbfe;--n:#93c5fd;
+--ind:#4f46e5;--indt:#c7d2fe;--navy:#3b5bdb;
+--mild-bg:#12361f;--mod-bg:#3a2d0b;--sev-bg:#3d1620;--life-bg:#3a1226;}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--tx);background:linear-gradient(180deg,var(--bg1),var(--bg2));background-color:var(--bg2);min-height:100vh;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1360px;margin:0 auto;padding:16px}
+header.top{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 18px;box-shadow:0 6px 20px rgba(10,16,32,.10)}
+header.top h1{margin:0;font-size:1.25rem;font-weight:800;color:var(--indt);letter-spacing:-.01em}
+header.top p{margin:2px 0 0;font-size:.82rem;color:var(--mut);max-width:860px}
+.ico{width:46px;height:46px;flex:none}
+.ico svg{width:100%;height:100%;display:block}
+.sp{flex:1}
+.ainote{margin:12px 0 0;background:var(--wb);border:1px solid #fcd34d;color:var(--wt);border-radius:12px;padding:10px 14px;font-size:.8rem;font-weight:600}
+.ainote p{margin:4px 0 0;font-weight:500}
+nav.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+nav.tabs button{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card2);color:var(--tx);border-radius:14px;padding:8px 14px 8px 8px;font-weight:700;font-size:.85rem;cursor:pointer;font-family:inherit}
+nav.tabs button .ico{width:30px;height:30px}
+nav.tabs button[aria-selected="true"]{background:var(--ind);color:#fff;border-color:var(--indt);box-shadow:0 4px 14px rgba(55,48,163,.35)}
+nav.tabs button:hover:not([aria-selected="true"]){background:var(--surf)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #818cf8;outline-offset:2px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 6px 20px rgba(10,16,32,.08);margin-bottom:14px}
+.panel[hidden]{display:none}
+.panel h2{margin:0 0 4px;font-size:1.05rem;font-weight:800;color:var(--indt)}
+.panel h3{margin:0 0 6px;font-size:.92rem;font-weight:800;color:var(--indt)}
+.sub{margin:0 0 12px;color:var(--mut);font-size:.82rem}
+.ref{color:var(--n);font-weight:700;font-size:.72rem;display:block;margin-top:2px}
+.cnt{font-size:.78rem;color:var(--mut);font-weight:600;margin:0 0 8px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surf);border-radius:999px;padding:4px 11px;font-size:.74rem;font-weight:700;color:var(--mut);cursor:pointer;font-family:inherit}
+.chip[aria-pressed="true"]{background:var(--tnt);color:var(--indt);border-color:#818cf8}
+.search{border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:.84rem;font-family:inherit;background:var(--surf);color:var(--tx);min-width:220px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.tw{border:1px solid var(--line);border-radius:14px;background:var(--surf)}
+.tw .sc{overflow-x:visible}
+table.rs{width:100%;border-collapse:collapse;font-size:.78rem}
+table.rs th,table.rs td{padding:8px 9px;vertical-align:top;overflow-wrap:anywhere;border-bottom:1px solid var(--line2);text-align:left}
+table.rs thead th{background:var(--ind);color:#fff;font-size:.8rem}
+table.rs tbody tr:nth-child(even) td{background:var(--surf2)}
+td.num{font-weight:800;color:var(--indt);width:42px}
+td.drug{min-width:130px;overflow-wrap:normal!important}
+td.drug b{color:var(--indt)}
+#td td.num,#td th:nth-child(2){width:120px}
+#td td.num{white-space:normal}
+.grp{display:inline-block;margin-top:4px;background:var(--tnt);color:var(--indt);border-radius:999px;padding:1px 9px;font-size:.68rem;font-weight:700}
+.ev{display:inline-block;min-width:24px;text-align:center;border-radius:999px;padding:1px 8px;font-weight:800;font-size:.72rem;margin-right:4px}
+.ev.A{background:var(--gb);color:var(--gt)}.ev.D{background:var(--nb);color:var(--nt)}.ev.B{background:var(--wb);color:var(--wt)}
+.evn{display:block;font-size:.72rem;color:var(--mut);margin-top:4px}
+.empty{text-align:center;color:var(--mut);padding:18px!important}
+.flag{display:inline-block;margin-top:4px;background:var(--wb);border:1px solid #fcd34d;color:var(--wt);border-radius:8px;padding:2px 8px;font-size:.72rem;font-weight:700}
+.cap{display:inline-block;background:var(--bb);color:var(--bt);border-radius:8px;padding:2px 8px;font-weight:800;font-size:.74rem}
+.chipcn{display:inline-block;background:var(--wb);color:var(--wt);border:1px solid #fcd34d;border-radius:999px;padding:1px 9px;font-size:.7rem;font-weight:800}
+
+/* thang mức độ */
+.ladder{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:10px}
+.step{border:2px solid var(--line);background:var(--surf);border-radius:14px;padding:9px 10px;cursor:pointer;font-family:inherit;text-align:left;color:var(--tx)}
+.step .nm{display:block;font-weight:800;font-size:.9rem}
+.step .mt{display:block;font-size:.72rem;color:var(--mut);font-weight:600}
+.step[data-k="nhe"]{--c:var(--mild)}.step[data-k="vua"]{--c:var(--mod)}.step[data-k="nang"]{--c:var(--sev)}.step[data-k="doa"]{--c:var(--life)}
+.step[aria-pressed="true"]{border-color:var(--c);background:var(--c);color:#fff;box-shadow:0 4px 14px rgba(10,16,32,.25)}
+.step[aria-pressed="true"] .mt{color:#fff}
+.sevpanel{display:grid;grid-template-columns:1fr 1fr;gap:14px;border:2px solid var(--c);background:var(--surf);border-radius:14px;padding:12px 14px;border-left-width:8px}
+.sevpanel .rule,.sevpanel .where{font-size:.78rem;color:var(--mut);margin:0 0 8px;font-weight:600}
+dl.signs{margin:0;display:grid;grid-template-columns:150px 1fr;gap:4px 10px;font-size:.78rem}
+dl.signs dt{font-weight:800;color:var(--indt)}dl.signs dd{margin:0}
+ul.acts{margin:0;padding-left:18px;font-size:.8rem}ul.acts li{margin-bottom:6px}
+
+/* ma trận nhanh */
+.qmw{overflow-x:auto}
+.qm{width:100%;min-width:760px;table-layout:fixed;border-collapse:separate;border-spacing:4px;font-size:.78rem}
+.qm th{background:var(--ind);color:#fff;padding:8px;border-radius:8px}
+.qm td.lab{background:var(--card2);font-weight:800;color:var(--indt);padding:8px;border-radius:8px;width:16%}
+.qm td.q{padding:8px;border-radius:8px;overflow-wrap:anywhere;font-weight:600;border:1px solid rgba(10,16,32,.10)}
+.qg{background:var(--gb);color:var(--gt)}.qw{background:var(--wb);color:var(--wt)}.qb{background:var(--bb);color:var(--bt)}.qn{background:var(--nb);color:var(--nt)}.qd{background:#7f1d1d;color:#fff}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 0;font-size:.76rem;font-weight:700;align-items:center}
+.legend span.k{padding:3px 10px;border-radius:999px;border:1px solid rgba(10,16,32,.12)}
+.legend a{color:var(--n);text-decoration:underline}
+
+/* đường đi */
+.path{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}
+.stage{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.stage .n{display:inline-flex;width:26px;height:26px;border-radius:50%;background:var(--ind);color:#fff;font-weight:800;align-items:center;justify-content:center;font-size:.8rem;margin-bottom:4px}
+.stage ul,.gate ul,.box ul,.admit ul{margin:6px 0 0;padding-left:16px;font-size:.78rem}
+.stage li,.gate li,.box li,.admit li{margin-bottom:4px}
+.gates{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
+.gate{border-radius:14px;padding:10px 12px;border:2px solid var(--line);background:var(--surf)}
+.gate.ok{border-color:var(--g);background:var(--gb)}.gate.part{border-color:#d97706;background:var(--wb)}.gate.bad{border-color:var(--b);background:var(--bb)}
+.admit{background:var(--surf);border:2px dashed var(--b);border-radius:14px;padding:10px 14px;margin-bottom:12px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.box{background:var(--surf);border:2px solid var(--b);border-radius:14px;padding:10px 12px}
+.box.alt{border-color:#d97706}.box.dk{border-color:var(--indt)}
+
+/* công cụ liều */
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-bottom:12px}
+.form label{display:flex;flex-direction:column;gap:3px;font-size:.74rem;font-weight:700;color:var(--mut)}
+.form input,.form select{border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:.88rem;font-family:inherit;background:var(--surf);color:var(--tx)}
+.est{display:flex;gap:10px;flex-wrap:wrap;margin:8px 0 14px}
+.est div{background:var(--tnt);border-radius:12px;padding:8px 14px;font-weight:800;color:var(--indt);font-size:.86rem}
+.est small{display:block;font-weight:600;color:var(--mut);font-size:.7rem}
+.res{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px}
+.rc{border-radius:14px;padding:12px;border:2px solid var(--c);background:var(--surf)}
+.rc h3{margin:0 0 6px;font-size:.88rem;font-weight:800;color:var(--c)}
+.badge{display:inline-block;padding:2px 10px;border-radius:999px;font-size:.7rem;font-weight:800;margin-bottom:6px}
+.s-ok{background:var(--gb);color:var(--gt)}.s-warn{background:var(--wb);color:var(--wt)}.s-na{background:var(--nb);color:var(--nt)}
+.rc .dose{font-weight:800;font-size:.9rem;margin-bottom:6px}
+.rc ul{margin:0;padding-left:16px;font-size:.76rem;color:var(--mut)}
+.disc{font-size:.76rem;color:var(--mut);margin-top:10px}
+.warn{background:var(--wb);border:1px solid #fcd34d;color:var(--wt);border-radius:10px;padding:8px 12px;font-size:.8rem;font-weight:600}
+
+/* tình huống */
+.cases{display:grid;gap:12px}
+.case{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.case h3{margin:0 0 8px;font-size:.92rem;color:var(--indt);font-weight:800}
+.case .row{display:grid;grid-template-columns:120px 1fr;gap:8px;font-size:.8rem;padding:4px 0;border-top:1px dashed var(--line2)}
+.case .row b{font-weight:800}
+.case .row.p b{color:var(--g)}.case .row.a b{color:var(--w)}.case .row.x b{color:var(--b)}.case .row.y b{color:var(--indt)}
+
+/* trắc nghiệm */
+.qh{font-weight:800;font-size:.95rem;margin:6px 0 10px}
+.opt{display:block;width:100%;text-align:left;border:2px solid var(--line);background:var(--surf);border-radius:12px;padding:9px 12px;margin-bottom:8px;font-weight:600;font-size:.84rem;cursor:pointer;font-family:inherit;color:var(--tx)}
+.opt:hover:not([disabled]){border-color:#818cf8;background:var(--tnt2)}
+.opt.ok{border-color:var(--g);background:var(--gb)}.opt.no{border-color:var(--b);background:var(--bb)}
+.expl{background:var(--tnt2);border-left:4px solid var(--ind);padding:8px 12px;border-radius:8px;font-size:.8rem;margin:8px 0}
+.btn{border:0;background:var(--ind);color:#fff;border-radius:12px;padding:8px 18px;font-weight:800;font-size:.84rem;cursor:pointer;font-family:inherit}
+.btn.alt{background:var(--surf);color:var(--indt);border:1px solid var(--ind)}
+
+/* chú giải, nguồn */
+.sec ol{margin:0;padding-left:18px;font-size:.8rem}
+table.gl{width:100%;table-layout:fixed;border-collapse:collapse;font-size:.76rem;margin-bottom:12px}
+table.gl th,table.gl td{border-bottom:1px solid var(--line2);padding:6px 8px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+table.gl th{background:var(--band);color:var(--bandt)}
+table.gl td:first-child{font-weight:800;color:var(--indt);width:16%}
+.two{display:grid;grid-template-columns:1.2fr 1fr;gap:14px;font-size:.8rem}
+.two ul{margin:0;padding-left:18px}.two li{margin-bottom:5px}
+.refs{font-size:.76rem;color:var(--mut);list-style:none;padding-left:0!important}
+footer{font-size:.72rem;color:var(--mut);text-align:center;padding:10px 0 24px}
+
+@media(max-width:900px){
+ .ladder{grid-template-columns:repeat(2,1fr)}.path,.cols,.gates,.two,.sevpanel{grid-template-columns:1fr}
+ .case .row{grid-template-columns:1fr}dl.signs{grid-template-columns:120px 1fr}
+ .tw{overflow-x:auto}table.rs{min-width:640px}
+}
+@media(max-width:640px){.wrap{padding:10px}.search{min-width:0;width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{nav.tabs,.filters,.ladder,.btn{display:none}body{background:var(--surf)}.panel{break-inside:avoid-page}}
+
+html[data-theme="dark"] .rc h3{color:var(--indt)}
+html[data-theme="dark"] .ico svg{filter:brightness(.95)}
+
+/* thanh trên cùng */
+.topbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:4px 2px 12px}
+.brand{font-weight:800;font-size:1.15rem;color:var(--tx);letter-spacing:-.01em;display:flex;align-items:center;gap:8px}
+.brand span{color:var(--indt);font-size:.95rem;font-weight:700;margin-left:4px}
+.seg{display:flex;gap:2px;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:3px}
+.seg button{border:0;background:transparent;border-radius:9px;padding:7px 12px;font-weight:700;font-size:.82rem;display:flex;align-items:center;gap:7px;color:var(--tx);cursor:pointer;font-family:inherit}
+.seg button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.seg .dot{width:11px;height:11px;border-radius:50%;border:1px solid rgba(10,16,32,.35);display:inline-block}
+.dot.l{background:#fff}.dot.w{background:#e6d9b8}.dot.d{background:#1a2238}
+.seg button[aria-pressed="true"] .dot{border-color:#fff}
+.pb{border:1px solid var(--line);background:var(--surf);border-radius:10px;padding:8px 14px;font-weight:700;font-size:.82rem;color:var(--tx);cursor:pointer;font-family:inherit}
+.pb[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.pb:disabled{opacity:.55;cursor:not-allowed}
+.pb:hover:not(:disabled):not([aria-pressed="true"]){background:var(--tnt2)}
+header.top{position:relative;overflow:hidden;padding-top:26px}
+header.top::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(90deg,#2f5bea,#7c3aed,#d97706,#0f766e,#475569,#be185d)}
+.eyebrow{width:100%;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--indt)}
+
+.docinfo{margin-top:12px}
+.docinfo dl{margin:6px 0 0;display:grid;grid-template-columns:170px 1fr;gap:0;font-size:.8rem}
+.docinfo dt,.docinfo dd{margin:0;padding:6px 8px;border-bottom:1px solid var(--line2)}
+.docinfo dt{font-weight:800;color:var(--indt)}
+.ainote{font-size:.84rem}
+@media(max-width:640px){.docinfo dl{grid-template-columns:1fr}.docinfo dt{border-bottom:0;padding-bottom:0}}
+@media print{.topbar{display:none}html[data-theme]{--bg1:#a9b5c9;--bg2:#c4ccda;--card:#eef1f6;--card2:#dfe5ee;--line:#aab6c9;--tx:#0a1020;--mut:#2f3d54;--dim:#4a5a73;--surf:#fff;--surf2:#f4f6fb;--tnt:#e0e7ff;--tnt2:#eef2ff;--line2:#d7deea;--band:#c7d2fe;--bandt:#1e1b4b;--g:#15803d;--gb:#dcfce7;--gt:#14532d;--w:#a16207;--wb:#fef3c7;--wt:#713f12;--b:#b91c1c;--bb:#fee2e2;--bt:#7f1d1d;--n:#1d4ed8;--nb:#dbeafe;--nt:#1e3a8a;--ind:#3730a3;--indt:#3730a3;--navy:#17407e;--mild:#15803d;--mild-bg:#dcfce7;--mod:#a16207;--mod-bg:#fef3c7;--sev:#b91c1c;--sev-bg:#fee2e2;--life:#5b1030;--life-bg:#f6dce6;--bg1:#fff;--bg2:#fff}}
+
+/* bổ sung cho trang ACG */
+.st{display:inline-block;border-radius:999px;padding:1px 9px;font-weight:800;font-size:.72rem}
+.st.S{background:var(--gb);color:var(--gt)}.st.C{background:var(--wb);color:var(--wt)}
+.ev.mod{background:var(--nb);color:var(--nt)}.ev.low{background:var(--tnt);color:var(--indt)}.ev.vlow{background:var(--bb);color:var(--bt)}
+.neg{display:inline-block;margin-left:4px;background:var(--bb);color:var(--bt);border-radius:8px;padding:0 7px;font-size:.68rem;font-weight:800}
+tr.hl td{outline:2px solid #818cf8;outline-offset:-2px;background:var(--tnt2)!important}
+.mx{display:grid;grid-template-columns:110px 1fr 1fr;gap:6px;font-size:.78rem}
+.mx>div{border-radius:10px;padding:8px}
+.mx .h{background:var(--ind);color:#fff;font-weight:800;text-align:center}
+.mx .r{background:var(--card2);color:var(--indt);font-weight:800;display:flex;align-items:center}
+.mx .c{background:var(--surf);border:1px solid var(--line2);display:flex;gap:5px;flex-wrap:wrap;align-content:flex-start;min-height:54px}
+.mx .c.S{background:var(--gb)}.mx .c.C{background:var(--wb)}
+.rb{border:1px solid rgba(10,16,32,.2);background:var(--surf);color:var(--tx);border-radius:8px;padding:2px 9px;font-weight:800;font-size:.76rem;cursor:pointer;font-family:inherit}
+.rb:hover{background:var(--tnt)}
+.ico3{display:block;width:100%;height:100%}
+.note{font-size:.78rem;color:var(--mut);margin:6px 0 0}
+.lbl{font-size:.74rem;font-weight:800;color:var(--indt)}
+.calc2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:900px){.calc2{grid-template-columns:1fr}.mx{grid-template-columns:80px 1fr 1fr}}
+table.rs td.vt{min-width:150px}
+.st,.ev{white-space:nowrap}
+table.rs td.nw{min-width:96px;overflow-wrap:normal}
+
+.tg{background:var(--gb);color:var(--gt)}.tw2{background:var(--wb);color:var(--wt)}.tb{background:var(--bb);color:var(--bt)}.tn{background:var(--nb);color:var(--nt)}.ti{background:var(--tnt);color:var(--indt)}
+.mx .c.tg{background:var(--gb)}.mx .c.tw2{background:var(--wb)}.mx .c.tb{background:var(--bb)}.mx .c.tn{background:var(--nb)}.mx .c.ti{background:var(--tnt2)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+
+<linearGradient id="g-ped" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9deea"/></linearGradient>
+<linearGradient id="g-ind" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#3730a3"/></linearGradient>
+<linearGradient id="g-teal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+<linearGradient id="g-amb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+<linearGradient id="g-blu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7dd3fc"/><stop offset="1" stop-color="#0369a1"/></linearGradient>
+<linearGradient id="g-red" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fca5a5"/><stop offset="1" stop-color="#b91c1c"/></linearGradient>
+<radialGradient id="r-sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#0a1020" stop-opacity=".28"/><stop offset="1" stop-color="#0a1020" stop-opacity="0"/></radialGradient>
+<radialGradient id="r-hi" cx=".3" cy=".25" r=".7"><stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+
+
+</defs></svg>
+<div class="wrap">
+<div class="topbar">
+  <div class="brand" id="brand"></div>
+  <div class="sp"></div>
+  <div class="seg" role="group" aria-label="Chế độ nền">
+    <button type="button" data-th="light" aria-pressed="true"><span class="dot l"></span>Sáng</button>
+    <button type="button" data-th="warm" aria-pressed="false"><span class="dot w"></span>Ấm</button>
+    <button type="button" data-th="dark" aria-pressed="false"><span class="dot d"></span>Tối</button>
+  </div>
+  <button type="button" class="pb" aria-pressed="true" id="lang-vi">VI</button>
+  <button type="button" class="pb" id="lang-en" disabled title="Bản tiếng Anh chưa có">EN</button>
+  <button type="button" class="pb" id="print-btn">In trang đang xem</button>
+</div>
+<header class="top">
+  <div class="eyebrow" id="eyebrow"></div>
+  <div class="ico" id="hico"></div>
+  <div><h1 id="h1"></h1></div>
+</header>
+<section class="panel docinfo" aria-label="Thông tin tài liệu">
+  <h2>Thông tin tài liệu</h2>
+  <dl id="docdl"></dl>
+</section>
+<noscript><p class="ainote">Trang này cần bật JavaScript để hiển thị bảng, bộ lọc và công cụ tính.</p></noscript>
+<nav class="tabs" id="tabs" role="tablist" aria-label="Nội dung"></nav>
+
+<div class="panel" id="p-rec" role="tabpanel">
+  <h2 id="rec-h"></h2>
+  <p class="sub" id="rec-sub"></p>
+  <div class="filters">
+    <div class="chips" id="gchips" role="group" aria-label="Lọc theo nhóm"></div>
+    <div class="chips" id="schips" role="group" aria-label="Lọc theo mức khuyến cáo"></div>
+    <div class="chips" id="echips" role="group" aria-label="Lọc theo mức chứng cứ"></div>
+    <label class="sr-only" for="q">Tìm trong bảng khuyến cáo</label>
+    <input class="search" id="q" type="search" placeholder="Tìm trong bảng khuyến cáo…">
+  </div>
+  <p class="cnt" id="count" aria-live="polite"></p>
+  <div class="tw"><table class="rs" id="recs"></table></div>
+</div>
+
+<div class="panel" id="p-mx" role="tabpanel" hidden>
+  <h2>Ma trận mức khuyến cáo × mức chứng cứ</h2>
+  <p class="sub">Bấm số khuyến cáo để mở dòng tương ứng. Ô trống nghĩa là không có khuyến cáo nào ở mức đó.</p>
+  <div class="mx" id="mx"></div>
+  <p class="note" id="mx-note"></p>
+  <div id="kc-wrap"><h2 style="margin-top:16px" id="kc-h"></h2>
+  <div class="tw"><table class="rs" id="kc"></table></div></div>
+</div>
+
+<div class="panel" id="p-calc" role="tabpanel" hidden>
+  <h2 id="calc-h"></h2>
+  <p class="sub" id="calc-sub"></p>
+  <div id="calc-body"></div>
+  <p class="disc" id="calc-disc"></p>
+</div>
+
+<div class="panel" id="p-inc" role="tabpanel" hidden>
+  <h2 id="inc-h"></h2>
+  <p class="sub" id="inc-sub"></p>
+  <div class="tw"><table class="rs" id="inc"></table></div>
+</div>
+
+<div class="panel" id="p-val" role="tabpanel" hidden>
+  <h2>Khả năng áp dụng tại bệnh viện</h2>
+  <p class="sub">Danh sách điểm cần thẩm định. Chưa đối chiếu với danh mục thuốc hay phác đồ nội bộ vì chưa được cung cấp.</p>
+  <div class="tw"><table class="rs" id="val"></table></div>
+</div>
+
+<div class="panel" id="p-case" role="tabpanel" hidden>
+  <h2>Tình huống minh hoạ (AI soạn, không phải ca thật)</h2>
+  <p class="sub">Mỗi tình huống dẫn số dòng khuyến cáo làm cơ sở và giữ mức chứng cứ của dòng gốc.</p>
+  <div class="cases" id="cases"></div>
+</div>
+
+<div class="panel" id="p-quiz" role="tabpanel" hidden>
+  <h2>Trắc nghiệm ôn nhanh</h2>
+  <p class="sub" id="qprog"></p>
+  <div id="quiz"></div>
+</div>
+
+<div class="panel sec" id="p-ref" role="tabpanel" hidden>
+  <h2>Chú giải từ viết tắt</h2>
+  <table class="gl" id="gloss"></table>
+  <div class="two">
+    <div><h3>Kiểm tra trước khi giao</h3><ul id="selfcheck"></ul></div>
+    <div><h3>Nguồn</h3><ul class="refs" id="sources"></ul></div>
+  </div>
+</div>
+
+<footer id="foot"></footer>
+</div>
+
+<script type="application/json" id="data">{"schema": "tom-tat-guideline/v1", "meta": {"title": "GINA 2026 – Chiến lược quản lý và phòng ngừa hen (phần trẻ 6–11 tuổi)", "desc": "Tóm tắt khuyến cáo GINA 2026 cho trẻ em 6–11 tuổi: chẩn đoán, đánh giá, điều trị (Track AIR/MART), đợt cấp. Giữ nguyên mức chứng cứ, diễn giải tiếng Việt, số trang tham khảo.", "brand": "Bệnh viện Sản Nhi tỉnh Quảng Ngãi", "brand_sub": "DSCKI Nguyễn Thành Tiên - Dược Lâm sàng - Khoa Dược", "eyebrow": "Dành cho bác sĩ & dược sĩ lâm sàng", "short": "GINA 2026 trẻ 6–11 tuổi", "docinfo": [["Tên guideline", "Global Strategy for Asthma Management and Prevention (2026 update)"], ["Tổ chức ban hành", "Global Initiative for Asthma (GINA). Chair Science Committee: Helen K. Reddel; Chair Board: Guy Brusselle"], ["Năm / cập nhật", "Updated May 2026. Available from: www.ginasthma.org"], ["DOI / PMID", "Không nêu trong file. Suggested citation: Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2026. Updated May 2026."], ["Quần thể đích", "Trẻ em 6–11 tuổi (một phần chung với adolescents/adults cho chẩn đoán, đánh giá, đợt cấp). Riêng phần điều trị Steps cho 6–11 tuổi."], ["Hệ thống phân mức", "Evidence A/B/C/D (bảng mô tả tr. 18–19). A: RCT/systematic reviews/observational rich data; B: limited RCT; C: non-randomized/observational; D: panel consensus. Không dùng GRADE Strong/Conditional."], ["Phạm vi đã trích", "Phần liên quan trẻ 6–11 tuổi: chẩn đoán (tr. 25–38), đánh giá (tr. 39–52), nguyên tắc (tr. 53–72), thuốc & phác đồ trẻ 6–11 (tr. 102–116), đợt cấp (tr. 170–191). PDF page ≈ printed page +1."], ["Lưu ý phiên bản", "Bản 2026 chính thức. Có cập nhật lớn về AIR ở trẻ 6–11 (CARE study), flowchart đợt cấp mới, ICS-SABA ở Track 2. Tài liệu có bản quyền; chỉ dùng cá nhân/giáo dục nội bộ, xin phép GINA trước khi đăng công khai."]], "rec_sub": "Khuyến cáo cho trẻ 6–11 tuổi. Vị trí theo trang in (Box). Mỗi dòng giữ nguyên Evidence level của GINA.", "search_hint": "Tìm: AIR, MART, ICS-formoterol, Step 1–5, CARE study, PRAM, đợt cấp", "kc_title": "Điểm thực hành chính (không gắn Evidence riêng)", "inc_sub": "Điểm không nhất quán hoặc khoảng trống bằng chứng trong phạm vi trẻ 6–11 tuổi.", "sources": ["Global Initiative for Asthma. Global Strategy for Asthma Management and Prevention, 2026. Updated May 2026. Available from: www.ginasthma.org"], "ai_label": "Tóm tắt có hỗ trợ AI – cần đối chiếu nguyên văn trước khi áp dụng lâm sàng.", "footer": "GINA 2026 | Phạm vi trẻ 6–11 tuổi | ClinPharmAI"}, "groups": ["Chẩn đoán", "Đánh giá kiểm soát & nguy cơ", "Điều trị khởi đầu & Steps (trẻ 6–11)", "Điều chỉnh & bước xuống", "Đợt cấp (exacerbation)", "Khác (tiêm chủng, kỹ thuật hít)"], "strengths": [{"k": "A", "label": "Evidence A", "tone": "tg"}, {"k": "B", "label": "Evidence B", "tone": "tw2"}, {"k": "C", "label": "Evidence C", "tone": "tb"}, {"k": "D", "label": "Evidence D", "tone": "tn"}, {"k": "cons", "label": "Consensus (không gắn Evidence riêng)", "tone": "ti"}], "certainty": [{"k": "na", "label": "Không áp dụng (GINA dùng thang Evidence A–D)", "tone": "tn"}], "recs": [{"n": 1, "g": 0, "loc": "tr. 25–27, Box 1-1", "kw": "diagnostic flowchart", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi (và adults/adolescents) có triệu chứng hô hấp mạn hoặc tái phát", "it": "Chẩn đoán hen dựa trên tiền sử triệu chứng đặc trưng (wheeze, khó thở, tức ngực, ho) thay đổi theo thời gian và cường độ, cùng bằng chứng hạn chế luồng khí thở ra biến thiên (spirometry hoặc PEF trước/sau giãn phế quản). Nên xác nhận chẩn đoán trước khi bắt đầu ICS nếu có thể. (tr. 25–27, Box 1-1)"}, {"n": 2, "g": 0, "loc": "tr. 28, Box 1-2", "kw": "criteria initial diagnosis", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi", "it": "Tiêu chí chẩn đoán ban đầu: triệu chứng hô hấp đặc trưng + bằng chứng biến thiên luồng khí thở ra (tăng FEV1 ≥12% và ≥200 mL sau giãn phế quản theo tiêu chuẩn 2005, hoặc PEF biến thiên). Tiêu chuẩn >10% predicted có thể bỏ sót một số ca có gánh nặng hô hấp cao. (tr. 28, Box 1-2; cập nhật 2026 tr. 21)"}, {"n": 3, "g": 1, "loc": "tr. 41, Box 2-2", "kw": "GINA assessment asthma control", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi tại lần khám", "it": "Đánh giá kiểm soát triệu chứng (4 câu hỏi trong 4 tuần: triệu chứng ban ngày >2 lần/tuần, thức giấc do hen, cần reliever >2 lần/tuần, hạn chế hoạt động) và yếu tố nguy cơ đợt cấp/ suy giảm chức năng phổi/tác dụng phụ. (tr. 41, Box 2-2)"}, {"n": 4, "g": 1, "loc": "tr. 44, Box 2-3", "kw": "specific questions children 6-11", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi", "it": "Câu hỏi đặc thù cho trẻ 6–11: hỏi về triệu chứng khi chơi/thể thao, ảnh hưởng đến trường học, sử dụng reliever, thức giấc, và ý kiến phụ huynh. (tr. 44, Box 2-3)"}, {"n": 5, "g": 2, "loc": "tr. 102, Box 4-10", "kw": "initial treatment children 6-11", "s": "B", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi mới chẩn đoán, triệu chứng thưa (≤2 ngày/tuần)", "it": "Điều trị khởi đầu ưa thích: as-needed low-dose ICS-formoterol (Evidence B) HOẶC as-needed low-dose ICS+SABA (kết hợp hoặc ICS mỗi khi dùng SABA, Evidence B/C). (tr. 102, Box 4-10)"}, {"n": 6, "g": 2, "loc": "tr. 102, Box 4-10", "kw": "symptoms 3-4 days/week", "s": "A", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi, triệu chứng 3–4 ngày/tuần", "it": "Ưa thích: daily low-dose ICS + as-needed SABA (Evidence A) hoặc + as-needed ICS-SABA (Evidence B). Tùy chọn khác (không ưa thích): as-needed ICS-formoterol (Evidence C cho Step 2), hoặc daily LTRA (nhưng ICS hiệu quả hơn với đợt cấp, Evidence A; cảnh báo tác dụng thần kinh-tâm thần). (tr. 102, Box 4-10)"}, {"n": 7, "g": 2, "loc": "tr. 102–104, Box 4-10, 4-11, 4-12", "kw": "Step 3-4 MART", "s": "B", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi, triệu chứng hầu hết ngày hoặc thức giấc ≥1 lần/tuần hoặc chức năng phổi thấp", "it": "Step 3: low-dose ICS-LABA hoặc medium-dose ICS + as-needed SABA/ICS-SABA, HOẶC low-dose ICS-formoterol MART (Evidence B). Step 4: medium-dose ICS-LABA + as-needed, hoặc low-dose MART (liều gấp đôi Step 3, vẫn low daily ICS). (tr. 102–104, Box 4-10/11/12)"}, {"n": 8, "g": 2, "loc": "tr. 105, CARE study", "kw": "CARE study AIR Step 1", "s": "B", "neg": 0, "c": "na", "pop": "Trẻ 5–15 tuổi dùng SABA đơn thuần (kết quả áp dụng 6–11)", "it": "Nghiên cứu CARE: as-needed low-dose budesonide-formoterol giảm gần một nửa tỷ lệ đợt cấp trung bình-nặng so với SABA đơn (0.23 vs 0.41/năm, RR 0.55). Không khác biệt tốc độ tăng trưởng. Công thức dùng trong nghiên cứu đã ngừng sản xuất; GINA đề xuất budesonide-formoterol delivered 80/4.5 mcg (metered 100/6), 1 nhát. (tr. 105)"}, {"n": 9, "g": 2, "loc": "tr. 21, 105", "kw": "evidence gap Step 2", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi ở Step 2", "it": "Còn khoảng trống bằng chứng: chưa biết as-needed ICS-formoterol có hiệu quả tương đương daily ICS + as-needed SABA hay không ở Step 2. MART đã có bằng chứng ở Step 3–4. (tr. 21, 105)"}, {"n": 10, "g": 3, "loc": "tr. 110–112", "kw": "review response step up down", "s": "D", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi (chung adults/adolescents)", "it": "Đánh giá lại sau 1–3 tháng bắt đầu điều trị, sau đó mỗi 3–12 tháng. Sau đợt cấp: tái khám trong 1 tuần (Evidence D). Step-up coi là thử nghiệm điều trị 2–3 tháng; nếu không đáp ứng thì giảm về mức cũ. Step-down khi kiểm soát tốt ≥2–3 tháng và chức năng phổi ổn định. (tr. 110–112)"}, {"n": 11, "g": 4, "loc": "tr. 20–21, Box 9-4", "kw": "exacerbation primary care children 6-11", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi đến tuyến cơ sở với đợt cấp", "it": "Flowchart mới 2026 cho đánh giá/điều trị/theo dõi đợt cấp ở primary care và ED (Box 9-4, 9-6). Dùng điểm lâm sàng đã validate (PRAM cho trẻ <18 tuổi). Ngưỡng oxy: không bổ sung trừ SpO2 <92%; mục tiêu nếu cho oxy ≤95%. ICS-formoterol là tùy chọn cho đợt cấp nhẹ thay SABA. Lắc pMDI trước mỗi lần xịt. (tr. 20–21)"}, {"n": 12, "g": 4, "loc": "tr. 21, 177 Box 9-3", "kw": "OCS stewardship", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi (và chung)", "it": "Ưu tiên OCS stewardship: tối ưu hóa điều trị hít, dùng biologic nếu chỉ định, kỹ thuật không dùng thuốc khi nhiễm virus, liều/thời gian OCS thích hợp, tránh OCS duy trì trừ phương án cuối, theo dõi tích lũy OCS. (tr. 21, Box 9-3)"}, {"n": 13, "g": 5, "loc": "tr. 101, 116", "kw": "vaccinations children", "s": "C", "neg": 0, "c": "na", "pop": "Trẻ có hen", "it": "Khuyến cáo tiêm cúm hàng năm (Evidence C). Tiêm phòng pneumococcal, pertussis, RSV, COVID-19 theo lịch địa phương. (tr. 101, 116)"}, {"n": 14, "g": 5, "loc": "tr. 22, Box 5-2", "kw": "inhaler technique pMDI spacer", "s": "cons", "neg": 0, "c": "na", "pop": "Trẻ 6–11 tuổi dùng pMDI + spacer", "it": "Kỹ thuật single-breath với nín thở ưa thích cho sử dụng thường ngày; tidal breathing dùng chủ yếu khi đợt cấp hoặc trẻ nhỏ. Lắc mọi pMDI dạng hỗn dịch ngay trước mỗi lần xịt (kể cả salbutamol, budesonide-formoterol). (tr. 22, Box 5-2)"}], "kc": [{"id": "kc1", "loc": "tr. 20–24 What's new", "txt": "GINA 2026 nhấn mạnh tiếp cận Track 1 với ICS-formoterol (AIR/MART) để giảm đợt cấp, OCS và carbon footprint; cập nhật lớn về AIR ở trẻ 6–11 từ CARE study; flowchart đợt cấp mới với ngưỡng oxy thấp hơn và ICS-formoterol tùy chọn.", "cond": ""}, {"id": "kc2", "loc": "tr. 102–105", "txt": "Với trẻ 6–11: Step 1 ưa thích AIR (as-needed ICS-formoterol hoặc ICS+SABA); Step 2 vẫn ưa thích daily low-dose ICS + SABA (khoảng trống bằng chứng so với AIR); MART có bằng chứng ở Step 3–4.", "cond": ""}], "inc": [{"t": "Khoảng trống bằng chứng Step 2 ở trẻ 6–11", "a": "tr. 21 What's new: 'There remains an evidence gap for children 6–11 years at Step 2: it is not known whether as-needed ICS-formoterol is as effective as daily ICS with as-needed SABA.'", "b": "Box 4-10/4-12: vẫn liệt kê as-needed ICS-formoterol là tùy chọn (Evidence C) ở Step 2, nhưng daily ICS là ưa thích (Evidence A).", "note": "Không mâu thuẫn trực tiếp; GINA ghi nhận khoảng trống và giữ daily ICS là preferred ở Step 2."}, {"t": "Công thức CARE study đã ngừng", "a": "tr. 105: budesonide-formoterol 50/3 mcg pMDI (2 nhát) dùng trong CARE đã discontinued.", "b": "GINA đề xuất thay bằng delivered dose 80/4.5 mcg (metered 100/6) 1 nhát.", "note": "Cần kiểm tra công thức sẵn có tại Việt Nam và hướng dẫn liều chính xác."}], "val": [{"item": "Danh mục thuốc: ICS-formoterol (budesonide-formoterol) dạng DPI/pMDI liều thấp phù hợp trẻ 6–11; ICS-SABA kết hợp nếu có; LTRA (cảnh báo thần kinh-tâm thần).", "ref": "Box 4-2, 4-8, 4-10"}, {"item": "Nhãn cấp phép tại Việt Nam cho ICS-formoterol as-needed/AIR/MART ở trẻ 6–11 tuổi (có thể off-label theo một số quốc gia).", "ref": "tr. 18–19 New therapies and indications"}, {"item": "Công cụ đánh giá: PRAM cho đợt cấp trẻ <18; Peds-AIRQ; CAAT (người lớn).", "ref": "tr. 23, Box 12-2"}, {"item": "Quyền sử dụng tài liệu GINA: bản này chỉ dùng cá nhân/giáo dục; xin phép GINA trước khi đăng công khai hoặc tích hợp hệ thống.", "ref": "Nguyên tắc 11 skill + trang copyright file"}, {"item": "Phác đồ nội bộ bệnh viện / hướng dẫn Bộ Y tế về hen trẻ em có thể khác (ví dụ ưu tiên daily ICS hơn AIR).", "ref": "Cần đối chiếu"}], "cases": [{"t": "Trẻ 8 tuổi triệu chứng ≤2 ngày/tuần, dùng SABA đơn", "rows": [["Triệu chứng", "Wheeze khi chơi thể thao 1–2 lần/tuần, không thức giấc, chức năng phổi bình thường"], ["Khuyến cáo liên quan", "Dòng 5 (Box 4-10 Step 1): as-needed low-dose ICS-formoterol (Evidence B) hoặc ICS+SABA"], ["Hành động gợi ý (AI)", "Chuyển sang AIR; dạy kỹ thuật hít; action plan; tái khám 2–3 tháng. Không bắt đầu daily ICS nếu triệu chứng thưa."]]}, {"t": "Trẻ 9 tuổi triệu chứng hầu hết ngày, thức giấc 2 lần/tuần", "rows": [["Triệu chứng", "Khó thở hầu hết ngày, thức giấc do hen 2 lần/tuần, FEV1 75% predicted"], ["Khuyến cáo liên quan", "Dòng 7 (Step 3/4): low-dose ICS-LABA hoặc medium ICS + as-needed, hoặc low-dose MART"], ["Hành động gợi ý (AI)", "Bắt đầu Step 3 (MART ưu tiên nếu có); kiểm tra kỹ thuật & adherence; đánh giá nguy cơ; tái khám 2–3 tháng."]]}], "quiz": [{"q": "Theo GINA 2026, điều trị khởi đầu ưa thích cho trẻ 6–11 tuổi có triệu chứng ≤2 ngày/tuần là gì?", "o": ["Daily low-dose ICS + as-needed SABA", "As-needed low-dose ICS-formoterol hoặc as-needed ICS+SABA", "Daily LTRA", "SABA đơn thuần"], "a": 1, "e": "Box 4-10 (tr. 102) và CARE study (tr. 105): AIR là preferred Step 1 (Evidence B). Daily ICS là preferred Step 2."}, {"q": "Nghiên cứu CARE cho thấy as-needed budesonide-formoterol so với SABA đơn ở trẻ 5–15 tuổi:", "o": ["Giảm đợt cấp gần một nửa, không ảnh hưởng tăng trưởng", "Không khác biệt đợt cấp, giảm tăng trưởng", "Chỉ hiệu quả ở trẻ ≥12 tuổi", "Tăng nguy cơ tác dụng phụ toàn thân"], "a": 0, "e": "tr. 105: RR 0.55 cho đợt cấp; no difference in growth velocity."}], "gloss": [{"term": "AIR (Anti-inflammatory reliever)", "mean": "Reliever chứa ICS (ICS-formoterol hoặc ICS-SABA) dùng khi có triệu chứng, thay vì SABA đơn.", "page": "76, 105"}, {"term": "MART (Maintenance-and-reliever therapy)", "mean": "ICS-formoterol dùng cả duy trì và khi cần (cùng một ống).", "page": "75, 104"}, {"term": "PRAM", "mean": "Pediatric Respiratory Assessment Measure – thang điểm đánh giá mức độ nặng đợt cấp trẻ 2–17 tuổi.", "page": "218"}], "tools": null, "selfcheck": ["Phạm vi: trẻ 6–11 tuổi (chẩn đoán, đánh giá, điều trị Steps, đợt cấp) theo yêu cầu người dùng.", "14 dòng khuyến cáo, 2 key concept, 2 điểm không nhất quán, 5 điểm thẩm định, 2 tình huống, 2 câu trắc nghiệm.", "Giữ nguyên Evidence A/B/C/D của GINA; không quy đổi sang GRADE.", "Số trang theo trang in trong file (Box 4-10 tr. 102, Box 4-12 tr. 104).", "Cảnh báo bản quyền GINA và cần xin phép trước khi dùng công khai.", "Chưa thay thế việc đọc nguyên văn toàn bộ chương liên quan."], "checks": {"pdf": "/home/workdir/attachments/GINA-2026-Strategy-Report-WMS.pdf", "page_offset": 1, "items": [{"p": 102, "s": "initial asthma treatment for children aged 6–11 years"}, {"p": 105, "s": "care study"}, {"p": 105, "s": "relative rate 0.55"}, {"p": 20, "s": "what's new in gina 2026"}, {"p": 41, "s": "gina assessment of asthma control"}, {"p": 25, "s": "definition of asthma"}]}}</script>
+<script>
+"use strict";
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+var $=function(i){return document.getElementById(i);};
+var D=JSON.parse($("data").textContent);
+var M=D.meta,GRP=D.groups,SC=D.strengths,CE=D.certainty,RECS=D.recs,KC=D.kc||[],INC=D.inc||[],VAL=D.val||[],CASES=D.cases||[],QUIZ=D.quiz||[],GL=D.gloss||[];
+function find(a,k){for(var i=0;i<a.length;i++)if(a[i].k===k)return a[i];return {k:k,label:k,tone:"ti"};}
+
+/* ===== ICON 3D ===== */
+function ico(g,glyph){return '<svg class="ico3" viewBox="0 0 64 64" aria-hidden="true"><ellipse cx="32" cy="55" rx="22" ry="6" fill="url(#r-sh)"/><ellipse cx="32" cy="50" rx="20" ry="6" fill="url(#g-ped)" stroke="#c3cadb"/><circle cx="32" cy="28" r="18" fill="url(#'+g+')"/><circle cx="32" cy="28" r="18" fill="url(#r-hi)"/>'+glyph+'</svg>';}
+var G={
+ liver:'<path d="M20 26c6-6 18-6 24 0 3 4-1 12-9 13-8 1-16-5-15-13z" fill="#fff" opacity=".92"/>',
+ grid:'<g fill="#fff" opacity=".92"><rect x="22" y="18" width="9" height="9" rx="2"/><rect x="33" y="18" width="9" height="9" rx="2"/><rect x="22" y="29" width="9" height="9" rx="2"/><rect x="33" y="29" width="9" height="9" rx="2"/></g>',
+ calc:'<g fill="#fff" opacity=".92"><rect x="23" y="16" width="18" height="24" rx="3"/></g><g fill="#3730a3"><rect x="26" y="19" width="12" height="5" rx="1"/><circle cx="27" cy="29" r="1.7"/><circle cx="32" cy="29" r="1.7"/><circle cx="37" cy="29" r="1.7"/><circle cx="27" cy="35" r="1.7"/><circle cx="32" cy="35" r="1.7"/><circle cx="37" cy="35" r="1.7"/></g>',
+ warn:'<path d="M32 15l13 22H19z" fill="#fff" opacity=".92"/><rect x="31" y="22" width="2" height="8" fill="#b45309"/><circle cx="32" cy="33" r="1.4" fill="#b45309"/>',
+ check:'<path d="M22 29l7 7 13-14" stroke="#fff" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>',
+ case:'<g fill="#fff" opacity=".92"><circle cx="32" cy="22" r="6"/><path d="M21 40c0-8 6-12 11-12s11 4 11 12z"/></g>',
+ quiz:'<text x="32" y="38" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="sans-serif">?</text>',
+ book:'<g fill="#fff" opacity=".92"><path d="M20 18h11v22H20z"/><path d="M33 18h11v22H33z"/></g>'
+};
+var TABS=[["p-rec","Khuyến cáo","g-ind",G.liver,true],["p-mx","Ma trận & key concept","g-teal",G.grid,true],["p-calc","Công cụ tính","g-amb",G.calc,!!(D.tools&&D.tools.html)],["p-inc","Không nhất quán","g-red",G.warn,true],["p-val","Cần thẩm định","g-blu",G.check,true],["p-case","Tình huống","g-teal",G.case,CASES.length>0],["p-quiz","Trắc nghiệm","g-amb",G.quiz,QUIZ.length>0],["p-ref","Chú giải & nguồn","g-ind",G.book,true]].filter(function(t){return t[4];});
+
+/* ===== RENDER ===== */
+var state={g:-1,s:"",e:"",q:"",hl:0,tab:"p-rec"};
+function stBadge(r){var s=find(SC,r.s);return '<span class="st '+s.tone+'">'+esc(s.label)+'</span>'+(r.neg?'<span class="neg">không nên</span>':'');}
+function renderRecs(){
+  var q=state.q.trim().toLowerCase();
+  var rows=RECS.filter(function(r){
+    if(state.g>=0&&r.g!==state.g)return false;
+    if(state.s&&r.s!==state.s)return false;
+    if(state.e&&r.c!==state.e)return false;
+    if(q&&(r.kw+" "+r.pop+" "+r.it+" "+GRP[r.g]).toLowerCase().indexOf(q)<0)return false;
+    return true;});
+  var h='<thead><tr><th>#</th><th>Nhóm</th><th>Mức KC</th><th>Mức CC</th><th>Quần thể / điều kiện</th><th>Diễn giải</th></tr></thead><tbody>';
+  if(!rows.length)h+='<tr><td colspan="6" class="empty">Không có dòng nào khớp bộ lọc.</td></tr>';
+  rows.forEach(function(r){var e=find(CE,r.c);
+    h+='<tr id="rec-'+esc(r.n)+'"'+(state.hl===r.n?' class="hl"':'')+'><td class="num">'+esc(r.n)+'</td><td class="vt"><span class="grp">'+esc(GRP[r.g])+'</span></td><td class="nw">'+stBadge(r)+'</td><td class="nw"><span class="ev '+e.tone+'">'+esc(e.label)+'</span></td><td>'+esc(r.pop)+'</td><td>'+esc(r.it)+'</td></tr>';});
+  $("recs").innerHTML=h+'</tbody>';
+  $("count").textContent="Đang hiển thị "+rows.length+" / "+RECS.length+" khuyến cáo";
+}
+function chipRow(id,items,key,all){
+  var el=$(id);
+  function draw(){el.innerHTML="";[[all,key==="g"?-1:""]].concat(items).forEach(function(it){
+    var b=document.createElement("button");b.type="button";b.className="chip";b.textContent=it[0];
+    b.setAttribute("aria-pressed",String(state[key]===it[1]));
+    b.addEventListener("click",function(){state[key]=it[1];state.hl=0;draw();renderRecs();});
+    el.appendChild(b);});}
+  draw();
+}
+function setupFilters(){
+  chipRow("gchips",GRP.map(function(n,i){return [n,i];}),"g","Tất cả nhóm");
+  chipRow("schips",SC.map(function(s){return [s.label,s.k];}),"s","Mọi mức KC");
+  chipRow("echips",CE.map(function(s){return [s.label,s.k];}),"e","Mọi mức CC");
+}
+function renderMx(){
+  var h='<div></div>'+SC.map(function(s){return '<div class="h">'+esc(s.label)+'</div>';}).join("");
+  CE.forEach(function(c){
+    h+='<div class="r">'+esc(c.label)+'</div>';
+    SC.forEach(function(s){
+      var m=RECS.filter(function(r){return r.c===c.k&&r.s===s.k;});
+      h+='<div class="c '+s.tone+'">'+(m.length?m.map(function(r){return '<button type="button" class="rb" data-n="'+esc(r.n)+'" aria-label="Khuyến cáo '+esc(r.n)+(r.neg?', không nên':'')+'">'+esc(r.n)+(r.neg?'✕':'')+'</button>';}).join(""):'<span class="note">—</span>')+'</div>';});});
+  var el=$("mx");el.style.gridTemplateColumns="110px repeat("+SC.length+",1fr)";el.innerHTML=h;
+  Array.prototype.forEach.call(el.querySelectorAll(".rb"),function(b){b.addEventListener("click",function(){goRec(b.getAttribute("data-n"));});});
+  var neg=RECS.filter(function(r){return r.neg;}).map(function(r){return r.n;});
+  $("mx-note").textContent=neg.length?'Dấu "không nên" (✕) đánh dấu khuyến cáo chống lại một can thiệp ('+neg.join(", ")+').':"";
+  if(!KC.length){$("kc-wrap").hidden=true;return;}
+  $("kc-h").textContent=M.kc_title||"Key concept (không áp dụng GRADE)";
+  var k='<thead><tr><th>#</th><th>Vị trí</th><th>Nội dung (diễn giải)</th><th>Điều kiện</th></tr></thead><tbody>';
+  KC.forEach(function(r){k+='<tr><td class="num">'+esc(r.id)+'</td><td>'+esc(r.loc)+'</td><td>'+esc(r.txt)+'</td><td>'+esc(r.cond)+'</td></tr>';});
+  $("kc").innerHTML=k+'</tbody>';
+}
+function goRec(n){state.g=-1;state.s="";state.e="";state.q="";$("q").value="";state.hl=/^\d+$/.test(n)?+n:n;setupFilters();showTab("p-rec");renderRecs();var el=$("rec-"+n);if(el&&el.scrollIntoView)el.scrollIntoView({block:"center"});}
+function renderInc(){
+  $("inc-h").textContent=INC.length+" điểm không nhất quán trong tài liệu";
+  $("inc-sub").textContent=INC.length?(M.inc_sub||"Mỗi điểm ghi hai vị trí và nội dung từng bên. Không tự chọn một phía."):"Không phát hiện trong phạm vi đã đọc.";
+  var fix=INC.some(function(r){return r.fix;});
+  var h='<thead><tr><th>#</th><th>Nội dung</th><th>Vị trí A</th><th>Vị trí B</th><th>Ghi chú</th>'+(fix?'<th>Đề xuất xử lý (AI, chờ duyệt)</th>':'')+'</tr></thead><tbody>';
+  INC.forEach(function(r,i){h+='<tr><td class="num">'+(i+1)+'</td><td><b>'+esc(r.t)+'</b></td><td>'+esc(r.a)+'</td><td>'+esc(r.b)+'</td><td>'+esc(r.note)+'</td>'+(fix?'<td>'+esc(r.fix||"")+'</td>':'')+'</tr>';});
+  $("inc").innerHTML=h+'</tbody>';
+}
+function renderVal(){
+  var h='<thead><tr><th>#</th><th>Điểm cần thẩm định</th><th>Liên quan</th><th>Trạng thái</th></tr></thead><tbody>';
+  VAL.forEach(function(r,i){h+='<tr><td class="num">'+(i+1)+'</td><td>'+esc(r.item)+'</td><td>'+esc(r.ref)+'</td><td><span class="chipcn">[CẦN THẨM ĐỊNH]</span></td></tr>';});
+  $("val").innerHTML=h+'</tbody>';
+}
+function renderCases(){
+  $("cases").innerHTML=CASES.map(function(c){return '<div class="case"><h3>'+esc(c.t)+'</h3>'+c.rows.map(function(r,i){return '<div class="row '+(i===0?'y':'')+'"><b>'+esc(r[0])+'</b><span>'+esc(r[1])+'</span></div>';}).join("")+'</div>';}).join("");
+}
+function renderGloss(){
+  var h='<thead><tr><th>Từ</th><th>Nghĩa</th><th>Trang</th></tr></thead><tbody>';
+  GL.forEach(function(r){h+='<tr><td>'+esc(r.term)+'</td><td>'+esc(r.mean)+'</td><td>tr. '+esc(r.page)+'</td></tr>';});
+  $("gloss").innerHTML=h+'</tbody>';
+  $("selfcheck").innerHTML=(D.selfcheck||[]).map(function(s){return '<li>'+esc(s)+'</li>';}).join("");
+  $("sources").innerHTML=(M.sources||[]).map(function(s){return '<li>'+esc(s)+'</li>';}).join("");
+}
+function renderHead(){
+  document.title=M.title;
+  $("brand").innerHTML='<img src="data:image/png;base64,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" alt="Logo QPO - BV Sản Nhi Quảng Ngãi" style="height:48px;vertical-align:middle;margin-right:10px"><div style="display:inline-block;vertical-align:middle"><div style="font-weight:800;font-size:1.05rem;color:#0a1020">Bệnh viện Sản Nhi tỉnh Quảng Ngãi</div><div style="font-size:0.78rem;color:#475569;font-weight:600;margin-top:2px">DSCKI Nguyễn Thành Tiên · Dược Lâm sàng · Khoa Dược</div></div>';
+  $("eyebrow").textContent=M.eyebrow||"Dành cho bác sĩ & dược sĩ lâm sàng";
+  $("h1").textContent=M.title;
+  $("docdl").innerHTML=(M.docinfo||[]).map(function(r){return '<dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd>';}).join("");
+  $("rec-h").textContent=RECS.length+" khuyến cáo";
+  $("rec-sub").textContent=M.rec_sub||"Vị trí ghi theo trang in. Mỗi dòng giữ nguyên mức khuyến cáo và mức chứng cứ của tài liệu.";
+  $("q").placeholder=M.search_hint||"Tìm trong bảng khuyến cáo…";
+  $("foot").innerHTML=esc(M.ai_label)+'<br>'+esc(M.footer||"");
+  if(D.tools&&D.tools.html){
+    $("calc-h").textContent=D.tools.title;$("calc-sub").textContent=D.tools.sub||"";
+    $("calc-body").innerHTML=D.tools.html;$("calc-disc").textContent=D.tools.disc||"";
+  }
+}
+
+/* ===== TRẮC NGHIỆM ===== */
+var qi=0,score=0,answered=false;
+function renderQuiz(){
+  var el=$("quiz");if(!QUIZ.length)return;
+  if(qi>=QUIZ.length){$("qprog").textContent="Hoàn thành";el.innerHTML='<div class="expl">Điểm: '+score+' / '+QUIZ.length+'</div><button type="button" class="btn" id="qre">Làm lại</button>';$("qre").addEventListener("click",function(){qi=0;score=0;answered=false;renderQuiz();});return;}
+  var q=QUIZ[qi];answered=false;
+  $("qprog").textContent="Câu "+(qi+1)+" / "+QUIZ.length;
+  el.innerHTML='<div class="qh">'+esc(q.q)+'</div>'+q.o.map(function(t,i){return '<button type="button" class="opt" data-i="'+i+'">'+esc(t)+'</button>';}).join("")+'<div id="qx"></div>';
+  Array.prototype.forEach.call(el.querySelectorAll(".opt"),function(b){b.addEventListener("click",function(){
+    if(answered)return;answered=true;var i=+b.getAttribute("data-i");
+    if(i===q.a)score++;
+    Array.prototype.forEach.call(el.querySelectorAll(".opt"),function(x,j){x.disabled=true;if(j===q.a)x.classList.add("ok");else if(j===i)x.classList.add("no");});
+    $("qx").innerHTML='<div class="expl">'+esc(q.e)+'</div><button type="button" class="btn" id="qn">'+(qi+1<QUIZ.length?"Câu tiếp":"Xem điểm")+'</button>';
+    $("qn").addEventListener("click",function(){qi++;renderQuiz();});});});
+}
+
+/* ===== TAB, THEME, IN ===== */
+function showTab(id){
+  state.tab=id;
+  ["p-rec","p-mx","p-calc","p-inc","p-val","p-case","p-quiz","p-ref"].forEach(function(p){var e=$(p);if(e)e.hidden=(p!==id);});
+  Array.prototype.forEach.call($("tabs").children,function(b){b.setAttribute("aria-selected",String(b.getAttribute("data-t")===id));});
+}
+function setupTabs(){
+  var nav=$("tabs");nav.innerHTML="";
+  TABS.forEach(function(t){
+    var b=document.createElement("button");b.type="button";b.setAttribute("role","tab");b.setAttribute("data-t",t[0]);b.setAttribute("aria-selected",String(t[0]===state.tab));
+    b.innerHTML='<span class="ico">'+ico(t[2],t[3])+'</span>'+esc(t[1]);
+    b.addEventListener("click",function(){showTab(t[0]);});nav.appendChild(b);});
+  ["p-calc","p-case","p-quiz"].forEach(function(p){if(!TABS.some(function(t){return t[0]===p;}))$(p).remove();});
+}
+function setTheme(t){
+  document.documentElement.setAttribute("data-theme",t);
+  Array.prototype.forEach.call(document.querySelectorAll(".seg button"),function(b){b.setAttribute("aria-pressed",String(b.getAttribute("data-th")===t));});
+  try{localStorage.setItem("gl-theme",t);}catch(e){}
+}
+function init(){
+  renderHead();$("hico").innerHTML=ico("g-ind",G.liver);
+  setupTabs();setupFilters();renderRecs();renderMx();renderInc();renderVal();renderCases();renderGloss();renderQuiz();
+  if(D.tools&&D.tools.js){try{(new Function("esc","$",D.tools.js))(esc,$);}catch(e){}}
+  Array.prototype.forEach.call(document.querySelectorAll(".seg button"),function(b){b.addEventListener("click",function(){setTheme(b.getAttribute("data-th"));});});
+  $("q").addEventListener("input",function(){state.q=this.value;state.hl=0;renderRecs();});
+  var t="light";try{var s=localStorage.getItem("gl-theme");if(s==="light"||s==="warm"||s==="dark")t=s;}catch(e){}
+  setTheme(t);
+  $("print-btn").addEventListener("click",function(){window.print();});
+}
+init();
+</script>
+</body>
+</html>

@@ -35,7 +35,7 @@
         '<li>Công thức nằm trong <code>js/lib/formulas.js</code>, có bộ ca kiểm thử tại <a href="tests/index.html" target="_blank" rel="noopener">tests/index.html</a>.</li>' +
         '<li>Nhật ký thay đổi công thức: <code>CHANGELOG-cong-thuc.md</code>.</li>' +
         '<li>Công thức dùng trên người bệnh thật cần một dược sĩ hoặc bác sĩ khác đối chiếu với tài liệu gốc. Người dùng là người duyệt cuối.</li>' +
-        '<li>Nội dung 20 tài liệu HTML do tài liệu gốc cung cấp; ứng dụng chỉ hiển thị, không chỉnh sửa và chưa đối chiếu.</li></ul></section>' +
+        '<li>Nội dung ' + (d ? d.records.length + ' ' : '') + 'tài liệu HTML do tài liệu gốc cung cấp; ứng dụng chỉ hiển thị, không chỉnh sửa và chưa đối chiếu.</li></ul></section>' +
         (f ? window.CDSSCalcUI.sourceCard(f.records.map(function (r) { return r.id; })) : '') +
         '</div></div>';
     }
