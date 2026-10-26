@@ -1,11 +1,11 @@
 /*
  * Service worker: lưu đệm khung ứng dụng và tài liệu để dùng ngoại tuyến.
  * Tăng CACHE_VERSION mỗi khi đổi mã, dữ liệu hoặc tài liệu.
- * - Khung ứng dụng và tài liệu: cache-first (cập nhật khi đổi CACHE_VERSION).
- * - data/*.json: network-first, dùng bản đệm khi mất mạng (danh mục mới hiện ngay sau cập nhật).
+ * - Mọi tệp cùng nguồn (khung app, dữ liệu, tài liệu): network-first, dùng bản đệm khi mất mạng,
+ *   để thay đổi giao diện hay danh mục hiện ngay từ lần mở đầu sau cập nhật.
  * - CDN (phông chữ, thư viện của tài liệu): lưu đệm khi đã tải một lần.
  */
-var CACHE_VERSION = 'v1.2.0';
+var CACHE_VERSION = 'v1.3.0';
 var APP_CACHE = 'cdss-app-' + CACHE_VERSION;
 var CDN_CACHE = 'cdss-cdn-' + CACHE_VERSION;
 
@@ -46,27 +46,16 @@ self.addEventListener('fetch', function (e) {
   var url = new URL(req.url);
 
   if (url.origin === self.location.origin) {
-    if (/\/data\/[^/]+\.json$/.test(url.pathname)) {
-      e.respondWith(caches.open(APP_CACHE).then(function (cache) {
-        return fetch(req).then(function (res) {
-          if (res.ok) cache.put(req, res.clone());
-          return res;
-        }).catch(function () {
-          return cache.match(req, { ignoreSearch: true }).then(function (hit) { return hit || Response.error(); });
-        });
-      }));
-      return;
-    }
-    e.respondWith(caches.match(req, { ignoreSearch: true }).then(function (hit) {
-      return hit || fetch(req).then(function (res) {
-        if (res.ok && res.type === 'basic') {
-          var copy = res.clone();
-          caches.open(APP_CACHE).then(function (c) { c.put(req, copy); });
-        }
+    e.respondWith(caches.open(APP_CACHE).then(function (cache) {
+      return fetch(req).then(function (res) {
+        if (res.ok && res.type === 'basic') cache.put(req, res.clone());
         return res;
       }).catch(function () {
-        if (req.mode === 'navigate') return caches.match('index.html');
-        return Response.error();
+        return cache.match(req, { ignoreSearch: true }).then(function (hit) {
+          if (hit) return hit;
+          if (req.mode === 'navigate') return cache.match('index.html');
+          return Response.error();
+        });
       });
     }));
     return;
