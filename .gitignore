@@ -1,0 +1,5 @@
+.DS_Store
+*.swp
+__pycache__/
+.claude/
+_tai-len-github/
