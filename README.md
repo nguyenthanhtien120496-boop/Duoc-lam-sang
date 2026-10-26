@@ -1,4 +1,4 @@
-# Cổng Dược Lâm Sàng – Khoa Dược, BV Sản Nhi Quảng Ngãi
+# Dược Lâm sàng – Khoa Dược, Bệnh viện Sản Nhi tỉnh Quảng Ngãi
 
 Web app tĩnh (PWA) gom 23 tài liệu dược lâm sàng và 3 công cụ tính vào một giao diện có thanh điều hướng bên trái.
 

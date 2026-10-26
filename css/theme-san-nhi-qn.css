@@ -1,6 +1,10 @@
-/* Theme đơn vị: Bệnh viện Sản Nhi tỉnh Quảng Ngãi. Chỉ đổi màu nhấn; tên và logo đặt trong index.html */
+/* Theme đơn vị: Bệnh viện Sản Nhi tỉnh Quảng Ngãi. Màu lấy từ logo QPO; tên và logo đặt trong index.html.
+ * --brand #128ed2 và --brand-light #a5def9 đo trực tiếp trên logo (chữ S/QPO và chữ thập).
+ * --accent đậm hơn --brand để chữ trắng đạt tương phản 5,04:1 (WCAG AA); #128ed2 chỉ đạt 3,6:1. */
 :root[data-unit="san-nhi-qn"] {
-  --accent: #b23a68;
+  --brand: #128ed2;
+  --brand-light: #a5def9;
+  --accent: #0b74b3;
   --accent-ink: #ffffff;
-  --accent-soft: #f6dfe8;
+  --accent-soft: #e2f3fc;
 }

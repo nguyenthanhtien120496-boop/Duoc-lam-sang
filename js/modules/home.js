@@ -17,7 +17,7 @@
       var nDocs = d ? d.records.length : 0, nCats = d ? d.categories.length : 0;
       var html = '<div class="page">';
       if (App.data.error) html += loadErrorNotice();
-      html += '<section class="hero"><h2>Cổng Dược Lâm Sàng</h2>' +
+      html += '<section class="hero"><h2>Dược Lâm sàng</h2>' +
         '<p>Tra cứu tóm tắt guideline, thông tin thuốc, so sánh dược lý và công cụ tính chức năng thận, BMI, BSA. ' +
         'Dùng thanh bên trái để chuyển mục; nhấn <b>/</b> để tìm nhanh (không cần gõ dấu).</p>' +
         '<div class="stats"><div class="stat"><b>' + nDocs + '</b><span>tài liệu</span></div>' +

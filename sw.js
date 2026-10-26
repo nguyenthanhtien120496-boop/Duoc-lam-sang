@@ -5,12 +5,12 @@
  * - data/*.json: network-first, dùng bản đệm khi mất mạng (danh mục mới hiện ngay sau cập nhật).
  * - CDN (phông chữ, thư viện của tài liệu): lưu đệm khi đã tải một lần.
  */
-var CACHE_VERSION = 'v1.1.0';
+var CACHE_VERSION = 'v1.2.0';
 var APP_CACHE = 'cdss-app-' + CACHE_VERSION;
 var CDN_CACHE = 'cdss-cdn-' + CACHE_VERSION;
 
 var SHELL = [
-  './', 'index.html', 'manifest.webmanifest', 'icons/icon.svg',
+  './', 'index.html', 'manifest.webmanifest', 'icons/icon.svg', 'icons/logo-qpo.png', 'icons/logo-qpo-192.png',
   'css/base.css', 'css/theme-san-nhi-qn.css',
   'js/lib/formulas.js', 'js/core.js', 'js/lib/calc-ui.js',
   'js/modules/home.js', 'js/modules/doc-viewer.js', 'js/modules/calc-crcl.js',

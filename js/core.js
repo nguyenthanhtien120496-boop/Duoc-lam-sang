@@ -157,7 +157,7 @@
     var title = info.title || mod.title || '';
     $('page-title').textContent = title;
     $('crumb').textContent = info.crumb || mod.crumb || '';
-    document.title = title ? title + ' · Cổng Dược Lâm Sàng' : 'Cổng Dược Lâm Sàng';
+    document.title = title ? title + ' · Dược Lâm sàng' : 'Dược Lâm sàng';
 
     markCurrent();
     if (isMobile()) setDrawer(false);
